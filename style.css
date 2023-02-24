@@ -1,0 +1,96 @@
+body {
+  background-color: #1c1a19;
+  width: 375px;
+}
+
+.header_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_info_section {
+  height: 519px;
+  background-image: url("images/Group.png");
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+}
+
+.Navbar {
+  padding: 7% 10% 0% 0%;
+  width: 100%;
+}
+
+.icon {
+  width: 90px;
+  height: 28px;
+  padding: 5% 0% 0% 0%;
+  font-weight: 600;
+  color: #ffff;
+}
+
+#hamburger {
+  color: #ffff;
+}
+
+.greeting-header {
+  color: #ff6b00;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+}
+
+.Profession {
+  color: #fff5e1;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.Skills {
+  color: #fff5e1;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: none;
+  flex-grow: 0;
+  list-style: none;
+  width: 10.636rem;
+  margin-left: -25px;
+  gap: 8px;
+  order: 3;
+}
+
+.twitter:hover,
+.linkedi:hover,
+.github:hover,
+.angel:hover {
+  color: #505f79;
+  opacity: 0.5;
+}
+
+.Group {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top: 56.55%;
+  bottom: -13.36%;
+  left: 63.62%;
+  right: -10.61%;
+  z-index: -1;
+}
